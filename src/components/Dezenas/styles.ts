@@ -6,18 +6,20 @@ export const DezenasSld = styled.div`
     align-items: flex-end;
     padding-bottom:3px;
     margin-left: 10px;
+    flex-direction: row;
 `;
 
 export const Circle = styled.div`
-    margin: 0.5rem;
+    background-color:#209869;
+    color: white;
+    font-size: 2em;
     display: block;
+    text-align: center;
+
+    margin: 0.5rem;
     height: 4rem;
     width: 4rem;
     line-height: 4rem;
-    background-color:#209869;
-    color: white;
-    text-align: center;
-    font-size: 2em;
     -moz-border-radius: 50%; 
     border-radius: 50%;
 `;

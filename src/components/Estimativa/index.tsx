@@ -10,7 +10,7 @@ export function Estimativa({dataProximoConcurso,valorEstimadoProximoConcurso}: P
     return (
     <EstimativaSld>
         <DataSld>Estimativa de prêmio do próximo concurso ({dataProximoConcurso}) </ DataSld>
-        <PremioSld>R${valorEstimadoProximoConcurso} </ PremioSld>
+        <PremioSld>R$ {valorEstimadoProximoConcurso} </ PremioSld>    
     </EstimativaSld>
     );
 }

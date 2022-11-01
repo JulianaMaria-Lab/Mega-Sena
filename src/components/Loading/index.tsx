@@ -1,16 +1,10 @@
-//import React from 'react'
-//import { LoadingSld } from './styles'
+import React from 'react'
+import { LoadingSld, LoadingTxt } from './styles'
 
 export function Loading(){
-     
-        /*
-        <LoadingSld>
-            <Loading> Carregando...</ LoadingTxt>
-        </LoadingSld>
-    )
-/*
-    <div className='loading'>
-    <h2>Carregando...</h2>
-    </div>
-    )*/
+    return(
+    <LoadingSld>
+        <LoadingTxt> Carregando...</ LoadingTxt>
+    </LoadingSld>
+    );
 }
