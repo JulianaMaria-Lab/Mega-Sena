@@ -9,8 +9,8 @@ export function Dezenas ({listaDezenas}: Props ) {
     return(
 
     <DezenasSld>   
-        {listaDezenas?.map(dezena =>(
-        <Circle>{dezena}</Circle>
+        {listaDezenas?.map((dezena: any) =>(
+        <Circle key={dezena}>{dezena}</Circle>
         ))}
     </DezenasSld>
     );
