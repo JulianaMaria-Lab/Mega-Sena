@@ -9,3 +9,6 @@ export interface Props {
     dataProximoConcurso: string,
     valorEstimadoProximoConcurso:number
   }
+  export interface ThemeContextProps{
+    toggleTheme: Function;
+  }

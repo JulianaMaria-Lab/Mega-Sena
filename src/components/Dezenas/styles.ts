@@ -5,13 +5,14 @@ export const DezenasSld = styled.div`
     padding: 10px 0px;
     align-items: flex-end;
     padding-bottom:3px;
-    margin-left: 10px;
     flex-direction: row;
+    color: ${props => props.theme.dezenaColor};
+    background: ${props => props.theme.backgroundColor};
 `;
 
 export const Circle = styled.div`
-    background-color:#209869;
-    color: white;
+    background-color: ${props => props.theme.circleColor};
+    color: ${props => props.theme.dezenaColor};
     font-size: 2em;
     display: block;
     text-align: center;
